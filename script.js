@@ -7,15 +7,18 @@ let count = 0
 
 lightbulb1.addEventListener("click", function (){
     count++;
-    subtitle.innerHTML = `You've clicked the lights ${count} times`
+    subtitle.innerHTML = `You've clicked the lights ${count} times`;
+    this.classList.toggle("active");
 })
 
 lightbulb2.addEventListener("click", function (){
     count++;
-    subtitle.innerHTML = `You've clicked the lights ${count} times`
+    subtitle.innerHTML = `You've clicked the lights ${count} times`;
+    this.classList.toggle("active");
 })
 
 lightbulb3.addEventListener("click", function (){
     count++;
-    subtitle.innerHTML = `You've clicked the lights ${count} times`
+    subtitle.innerHTML = `You've clicked the lights ${count} times`;
+    this.classList.toggle("active");
 })
